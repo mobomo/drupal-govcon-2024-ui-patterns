@@ -1,0 +1,60 @@
+# Ignore SO files
+.DS_Store
+.idea
+
+# Ignore contributed code.
+vendor
+web/core
+web/libraries
+web/modules/contrib
+web/profiles/contrib
+web/themes/contrib
+web/sites/default/files
+!web/sites/default/files/.htaccess
+web/sites/simpletest
+web/sites/default/settings.ddev.php
+
+# Ignore dev files
+node_modules
+web/themes/**/build
+web/themes/**/yarn-error.log
+
+# Ignore scaffolded files.
+web/.csslintrc
+web/.eslintignore
+web/.eslintrc.json
+web/.ht.router.php
+web/.htaccess
+web/autoload.php
+web/example.gitignore
+web/index.php
+web/INSTALL.txt
+web/README.md
+web/robots.txt
+web/update.php
+web/web.config
+/.editorconfig
+
+storage/tmp/**/*
+
+# Ignore backstopjs files.
+/.ddev/tests/backstop/backstop_data/bitmaps_test/
+/.ddev/tests/backstop/backstop_data/engine_scripts
+/.ddev/tests/backstop/backstop_data/html_report
+
+# Ignore storybook files.
+storybook/build-storybook.log
+storybook/storybook-static
+
+# Ignore logs.
+logs
+!logs/.gitkeep
+
+# Ignore sql files
+*.sql
+*.sql.gz
+
+# File to hold info we don't want public.
+secrets.env
+.localdata
+.env
