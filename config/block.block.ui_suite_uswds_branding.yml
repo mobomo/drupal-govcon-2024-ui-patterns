@@ -1,16 +1,16 @@
-uuid: 97f4b891-f2d6-4192-9aa9-f9ee5d6beec1
+uuid: 25c4b6c6-345e-46a8-8d1e-785027f6ee46
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - ui_suite_uswds
 _core:
-  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
-id: olivero_site_branding
-theme: olivero
-region: header
+  default_config_hash: rc-z_tpRhdw8Dva5Q1-kP1dZ6QEyB-syub9n9Bh8zYo
+id: ui_suite_uswds_branding
+theme: ui_suite_uswds
+region: header_top
 weight: 0
 provider: null
 plugin: system_branding_block

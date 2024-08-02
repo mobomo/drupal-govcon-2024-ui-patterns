@@ -1,17 +1,17 @@
-uuid: ced96924-d475-472a-97ac-71d97aa03564
+uuid: c835497a-8017-4d47-bc36-9f7fe17bc56f
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - ui_suite_uswds
 _core:
-  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
-id: olivero_content
-theme: olivero
+  default_config_hash: dAcgkQwppAONZoM3Anuo-spQXcFvTTJWV98kvhxc5M8
+id: ui_suite_uswds_content
+theme: ui_suite_uswds
 region: content
-weight: 0
+weight: 30
 provider: null
 plugin: system_main_block
 settings:

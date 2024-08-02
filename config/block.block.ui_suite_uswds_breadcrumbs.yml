@@ -1,17 +1,17 @@
-uuid: 75633598-2ed8-4d44-b339-72fdadae1117
+uuid: 289990c2-01bd-45b7-9f84-8adfa795c8a3
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - ui_suite_uswds
 _core:
-  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
-id: olivero_breadcrumbs
-theme: olivero
+  default_config_hash: zFmPBjB9cffErsKkZBqmO_dn1nm703Z5xTHkYtE7IXc
+id: ui_suite_uswds_breadcrumbs
+theme: ui_suite_uswds
 region: breadcrumb
-weight: 0
+weight: -100
 provider: null
 plugin: system_breadcrumb_block
 settings:

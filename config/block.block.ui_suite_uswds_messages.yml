@@ -1,17 +1,17 @@
-uuid: c4d8a48c-46fc-4356-a0ba-916b5934fe8c
+uuid: 33cf8db6-fd82-4d70-8c93-de18eb1b8cfb
 langcode: en
 status: true
 dependencies:
   module:
     - system
   theme:
-    - olivero
+    - ui_suite_uswds
 _core:
-  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
-id: olivero_messages
-theme: olivero
+  default_config_hash: qS0UY0V76tI1Wdapun1CE-kqOYqiTQYgg7piSQ4txqE
+id: ui_suite_uswds_messages
+theme: ui_suite_uswds
 region: highlighted
-weight: -5
+weight: -50
 provider: null
 plugin: system_messages_block
 settings:
