@@ -1,0 +1,67 @@
+uuid: 152376c8-9221-4a0c-97e6-ccf10dc32c82
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+    - ui_patterns_blocks
+  theme:
+    - ui_suite_uswds
+third_party_settings:
+  ui_styles:
+    block:
+      selected: {  }
+      extra: ''
+    title:
+      selected: {  }
+      extra: ''
+    content:
+      selected: {  }
+      extra: ''
+id: ui_suite_uswds_hero_2
+theme: ui_suite_uswds
+region: hero
+weight: 0
+provider: null
+plugin: 'ui_patterns:ui_suite_uswds:hero'
+settings:
+  id: 'ui_patterns:ui_suite_uswds:hero'
+  label: Hero
+  label_display: '0'
+  provider: ui_patterns_blocks
+  ui_patterns:
+    component_id: null
+    variant_id: null
+    props:
+      aria_label:
+        source_id: textfield
+        source:
+          value: ''
+      bg_image:
+        source_id: url
+        source:
+          value: 'https://federalist-3b6ba08e-0df4-44c9-ac73-6fc193b0e19c.sites.pages.cloud.gov/preview/uswds/uswds/develop/hero.jpg'
+    slots:
+      title:
+        sources:
+          -
+            source:
+              value:
+                value: '<p>Hello world</p>'
+                format: basic_html
+            source_id: wysiwyg
+            _weight: '0'
+      body:
+        sources:
+          -
+            source:
+              value:
+                value: '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit, augue vehicula nam imperdiet iaculis facilisi magnis</p>'
+                format: basic_html
+            source_id: wysiwyg
+            _weight: '0'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /hero-banner-example

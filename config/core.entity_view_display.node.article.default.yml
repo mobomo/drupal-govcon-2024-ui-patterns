@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.article.field_tags
     - node.type.article
   module:
-    - text
+    - ui_patterns_field_formatters
     - user
 _core:
   default_config_hash: br6izr-iGEu--JvNbCJNtOBpRnxpFLXfoV5y61U9Nqc
@@ -17,9 +17,28 @@ bundle: article
 mode: default
 content:
   body:
-    type: text_default
+    type: ui_patterns_component_per_item
     label: hidden
-    settings: {  }
+    settings:
+      ui_patterns:
+        component_id: 'ui_suite_uswds:summary_box'
+        variant_id: null
+        props:
+          summary_box_id:
+            source_id: textfield
+            source:
+              value: ''
+        slots:
+          summary_heading:
+            sources:
+              -
+                source_id: 'field_property:node:body:summary'
+                _weight: '0'
+          content:
+            sources:
+              -
+                source_id: 'field_property:node:body:processed'
+                _weight: '0'
     third_party_settings: {  }
     weight: 0
     region: content

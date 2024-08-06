@@ -17,13 +17,15 @@
     "require": {
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.4",
+        "drupal/config_inspector": "^2.1",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/devel": "^5.2",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
-        "drupal/ui_patterns": "2.0.x-dev@dev",
+        "drupal/layout_options": "^1.5",
+        "drupal/ui_patterns": "^2.0@alpha",
         "drupal/ui_suite_uswds": "4.0.x-dev@dev",
         "drush/drush": "^12.5"
     },

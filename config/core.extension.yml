@@ -2,7 +2,6 @@ _core:
   default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
 module:
   admin_toolbar: 0
-  admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
   big_pipe: 0
   block: 0
@@ -10,6 +9,7 @@ module:
   breakpoint: 0
   ckeditor5: 0
   config: 0
+  config_inspector: 0
   contextual: 0
   datetime: 0
   dblog: 0
@@ -24,6 +24,8 @@ module:
   image: 0
   layout_builder: 0
   layout_discovery: 0
+  layout_options: 0
+  layout_options_ui: 0
   link: 0
   media: 0
   media_library: 0
