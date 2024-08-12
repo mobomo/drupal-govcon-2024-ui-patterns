@@ -50,10 +50,6 @@ storybook/storybook-static
 logs
 !logs/.gitkeep
 
-# Ignore sql files
-*.sql
-*.sql.gz
-
 # File to hold info we don't want public.
 secrets.env
 .localdata

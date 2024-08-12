@@ -25,7 +25,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@RC",
         "drupal/layout_options": "^1.5",
-        "drupal/ui_patterns": "^2.0@alpha",
+        "drupal/ui_patterns": "2.0.x-dev@dev",
         "drupal/ui_suite_uswds": "4.0.x-dev@dev",
         "drush/drush": "^12.5"
     },

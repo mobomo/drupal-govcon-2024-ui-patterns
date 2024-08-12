@@ -8,7 +8,6 @@ dependencies:
   module:
     - node
     - text
-    - ui_patterns
     - ui_patterns_views
     - user
 id: ui_pattern_view_example
@@ -295,7 +294,13 @@ display:
     display_options:
       display_description: ''
       display_extenders:
-        ui_styles: {  }
+        ui_styles:
+          exposed_form_options:
+            selected: {  }
+            extra: ''
+          style_options:
+            selected: {  }
+            extra: ''
       path: ui-pattern-view-example
     cache_metadata:
       max-age: -1
