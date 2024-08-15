@@ -1,0 +1,24 @@
+uuid: 180a642c-f314-4a03-bb8e-dddec651e753
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.layout_builder_example.field_content
+    - field.field.node.layout_builder_example.field_header
+    - node.type.layout_builder_example
+  module:
+    - user
+id: node.layout_builder_example.teaser
+targetEntityType: node
+bundle: layout_builder_example
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_content: true
+  field_header: true

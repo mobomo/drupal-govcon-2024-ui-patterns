@@ -1918,30 +1918,33 @@
         },
         {
             "name": "drupal/devel",
-            "version": "5.2.1",
+            "version": "5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/devel.git",
-                "reference": "5.2.1"
+                "reference": "5.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/devel-5.2.1.zip",
-                "reference": "5.2.1",
-                "shasum": "793861751e01092fe8bc7c0cd47589ebea2bb8df"
+                "url": "https://ftp.drupal.org/files/projects/devel-5.3.1.zip",
+                "reference": "5.3.1",
+                "shasum": "6a5f13bdf93dc5f7f194b6af847589ae15e37b63"
             },
             "require": {
                 "doctrine/common": "^2.7 || ^3.4",
-                "drupal/core": ">=10.0 <12.0.0-stable",
+                "drupal/core": "^10.3 || ^11 || ^12",
                 "php": ">=8.1",
-                "symfony/var-dumper": "^4 || ^5 || ^6"
+                "symfony/var-dumper": "^4 || ^5 || ^6 || ^7"
             },
             "conflict": {
+                "drupal/core": "<10.3",
                 "drush/drush": "<12.5.1",
                 "kint-php/kint": "<3"
             },
             "require-dev": {
-                "drush/drush": "^12.5.1"
+                "drush/drush": "^13",
+                "firephp/firephp-core": "^0.5.3",
+                "kint-php/kint": "^5.1"
             },
             "suggest": {
                 "kint-php/kint": "Kint provides an informative display of arrays/objects. Useful for debugging and developing."
@@ -1949,8 +1952,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "5.2.1",
-                    "datestamp": "1711328410",
+                    "version": "5.3.1",
+                    "datestamp": "1723258446",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2231,19 +2234,19 @@
         },
         {
             "name": "drupal/ui_patterns_legacy",
-            "version": "2.0.0-alpha3",
+            "version": "2.0.0-beta1",
             "require": {
-                "drupal/core": "^10",
+                "drupal/core": "^10.3 || ^11",
                 "drupal/ui_patterns": "*"
             },
             "type": "metapackage",
             "extra": {
                 "drupal": {
-                    "version": "2.0.0-alpha3",
-                    "datestamp": "1720021864",
+                    "version": "2.0.0-beta1",
+                    "datestamp": "1723537707",
                     "security-coverage": {
                         "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
+                        "message": "Beta releases are not covered by Drupal security advisories."
                     }
                 }
             },
@@ -2261,7 +2264,7 @@
                     "homepage": "https://www.drupal.org/user/1344166"
                 },
                 {
-                    "name": "Christian.wiedemann",
+                    "name": "christian.wiedemann",
                     "homepage": "https://www.drupal.org/user/861002"
                 },
                 {
@@ -2349,7 +2352,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/ui_suite_uswds.git",
-                "reference": "9dc4644f8b5c1e5c03360bee2878b47580cb62b4"
+                "reference": "1fae215ace7047d62b5669b9c9549a8381f152ec"
             },
             "require": {
                 "drupal/core": "^10 || ^11",
@@ -2364,7 +2367,7 @@
                 },
                 "drupal": {
                     "version": "4.0.x-dev",
-                    "datestamp": "1722968596",
+                    "datestamp": "1723558229",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Dev releases are not covered by Drupal security advisories."
