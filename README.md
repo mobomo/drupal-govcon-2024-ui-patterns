@@ -6,5 +6,6 @@
 2. Run `ddev start`
 3. Run `ddev composer install`
 4. Run `ddev import-db --file drupal-govcon-demo-db.sql.gz`
-5. Run `ddev drush uli` to login
+5. Run `ddev drush cr`
+6. Run `ddev drush uli` to login
 
